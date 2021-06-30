@@ -4,6 +4,7 @@
 	"description": "ESM Helper Utility functions",
 	"main": "index.js",
 	"type": "module",
+	"files": ["index.js"],
 	"scripts": {
 		"lint": "eslint ./",
 		"lint-fix": "npm run lint -- --fix",
