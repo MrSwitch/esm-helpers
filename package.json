@@ -1,9 +1,9 @@
 {
-	"name": "@5app/package-template",
-	"version": "1.2.2",
-	"private": true,
-	"description": "Description",
+	"name": "@5app/esm-helpers",
+	"version": "0.0.0",
+	"description": "ESM Helper Utility functions",
 	"main": "index.js",
+	"type": "module",
 	"scripts": {
 		"lint": "eslint ./",
 		"lint-fix": "npm run lint -- --fix",
@@ -14,13 +14,13 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/5app/package-template.git"
+		"url": "git+https://github.com/5app/esm-helpers.git"
 	},
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/5app/package-template/issues"
+		"url": "https://github.com/5app/esm-helpers/issues"
 	},
-	"homepage": "https://github.com/5app/package-template#readme",
+	"homepage": "https://github.com/5app/esm-helpers#readme",
 	"devDependencies": {
 		"@commitlint/cli": "^12.1.4",
 		"@commitlint/config-conventional": "^12.1.4",
