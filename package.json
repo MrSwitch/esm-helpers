@@ -30,7 +30,7 @@
 		"@semantic-release/changelog": "^6.0.0",
 		"@semantic-release/git": "^10.0.0",
 		"eslint": "^7.9.0",
-		"eslint-config-5app": "^0.15.0",
+		"eslint-config-5app": "^0.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.0.0",
 		"husky": "^7.0.0",
