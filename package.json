@@ -12,7 +12,6 @@
 		"lint-fix": "npm run lint -- --fix",
 		"lint-diff": "LIST=`git diff-index --name-only HEAD | grep '.*\\.js$';`; if [ \"$LIST\" ]; then eslint $LIST; fi",
 		"precommit-msg": "echo 'Running pre-commit checks... (skip using --no-verify)'",
-		"semantic-release": "semantic-release",
 		"test": "echo 'implement tests'"
 	},
 	"repository": {
@@ -25,18 +24,17 @@
 	},
 	"homepage": "https://github.com/5app/esm-helpers#readme",
 	"devDependencies": {
+		"@5app/semantic-release-config": "^1.0.0",
 		"@commitlint/cli": "^13.0.0",
 		"@commitlint/config-conventional": "^13.0.0",
-		"@semantic-release/changelog": "^6.0.0",
-		"@semantic-release/git": "^10.0.0",
 		"eslint": "^7.9.0",
-		"eslint-config-5app": "^0.15.0",
+		"eslint-config-5app": "^0.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.0.0",
 		"husky": "^7.0.0",
 		"prettier": "^2.1.2",
 		"pretty-quick": "^3.0.2",
-		"semantic-release": "^18.0.0"
+		"semantic-release": "^19.0.2"
 	},
 	"publishConfig": {
 		"access": "public"
