@@ -1,6 +1,6 @@
 {
 	"name": "@5app/esm-helpers",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "ESM Helper Utility functions",
 	"main": "index.js",
 	"type": "module",

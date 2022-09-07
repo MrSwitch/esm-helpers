@@ -1,3 +1,10 @@
+## [0.0.3](https://github.com/5app/esm-helpers/compare/v0.0.2...v0.0.3) (2022-09-07)
+
+
+### Bug Fixes
+
+* **package:** add to github registry ([047cb4e](https://github.com/5app/esm-helpers/commit/047cb4e31a40682244edf29b4c3f1d7047ba9911))
+
 ## [0.0.2](https://github.com/5app/esm-helpers/compare/v0.0.1...v0.0.2) (2021-06-30)
 
 
