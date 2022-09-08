@@ -12,7 +12,7 @@
 		"lint-fix": "npm run lint -- --fix",
 		"lint-diff": "LIST=`git diff-index --name-only HEAD | grep '.*\\.js$';`; if [ \"$LIST\" ]; then eslint $LIST; fi",
 		"precommit-msg": "echo 'Running pre-commit checks... (skip using --no-verify)'",
-		"test": "echo 'implement tests'"
+		"test": "npm run lint"
 	},
 	"repository": {
 		"type": "git",
