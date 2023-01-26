@@ -1,6 +1,6 @@
-import fs from 'fs';
-import {join, dirname} from 'path';
-import {fileURLToPath} from 'url';
+import {readFileSync} from 'node:fs';
+import {join, dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
 
 /**
  * requireJSON
@@ -11,7 +11,7 @@ import {fileURLToPath} from 'url';
 export function requireJSON(meta, relativePath) {
 	const __dirname = dirName(meta);
 
-	return JSON.parse(fs.readFileSync(join(__dirname, relativePath)));
+	return JSON.parse(readFileSync(join(__dirname, relativePath)));
 }
 
 /**

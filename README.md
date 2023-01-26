@@ -2,7 +2,6 @@
 
 [![CircleCI](https://circleci.com/gh/5app/esm-helpers.svg?style=shield)](https://circleci.com/gh/5app/esm-helpers)
 
-
 ESM Helpers provides shims for working with NodeJS using ESM
 
 ```js
