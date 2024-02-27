@@ -26,8 +26,8 @@
 	"homepage": "https://github.com/5app/esm-helpers#readme",
 	"devDependencies": {
 		"@5app/semantic-release-config": "^1.1.0",
-		"@commitlint/cli": "^17.4.2",
-		"@commitlint/config-conventional": "^17.4.2",
+		"@commitlint/cli": "^19.0.0",
+		"@commitlint/config-conventional": "^19.0.0",
 		"eslint": "^8.32.0",
 		"eslint-config-5app": "^0.19.0",
 		"eslint-config-prettier": "^8.6.0",
